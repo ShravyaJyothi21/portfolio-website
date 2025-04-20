@@ -1,29 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Johnson – Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Welcome to my portfolio!</p>
-    </header>
-    <section class="about">
-        <h2>About Me</h2>
-        <p>Write a little bit about yourself here.</p>
-    </section>
-    <section class="projects">
-        <h2>My Projects</h2>
-        <ul>
-            <li>Project 1 - Description</li>
-            <li>Project 2 - Description</li>
-        </ul>
-    </section>
-    <footer>
-        <p>Contact: your.email@example.com</p>
-    </footer>
+  <header>
+    <h1>Alex Johnson</h1>
+    <p>Cloud &amp; AI Enthusiast | Final‐Year CSE Student</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="card">
+    <h2>About Me</h2>
+    <p>
+      Hello! I’m Alex, a final‐year Computer Science student with a passion for cloud computing and artificial intelligence.
+      I love building serverless applications, experimenting with Python, and deploying solutions on Azure.
+    </p>
+  </section>
+
+  <section id="projects" class="card">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>1. Personal Portfolio Website</h3>
+      <p>
+        Designed and deployed this very portfolio using Azure Static Web Apps,
+        featuring CI/CD via GitHub Actions and global CDN for blazing‑fast load times.
+      </p>
+    </div>
+    <div class="project">
+      <h3>2. Crypto Price API</h3>
+      <p>
+        Built a Python Azure Function that fetches live cryptocurrency prices
+        from a public API and returns JSON—demonstrating serverless workloads.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:alex.johnson@example.com">alex.johnson@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/alexjohnson" target="_blank">github.com/alexjohnson</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Alex Johnson</p>
+  </footer>
 </body>
 </html>
